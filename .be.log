@@ -1,0 +1,25 @@
+INFO:     Started server process [13252]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50024 - "GET /api/missing-persons HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50031 - "GET /api/missing-persons HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50066 - "GET /api/missing-persons HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50132 - "GET /api/missing-persons HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50283 - "GET /api/missing-persons HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50344 - "GET /api/missing-persons HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50344 - "GET /api/missing-persons HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50344 - "GET /api/missing-persons HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50370 - "GET /api/incidents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50369 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50371 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50373 - "GET /api/emergency/vehicles/cities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50372 - "GET /api/emergency/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50374 - "GET /api/emergency/medications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50375 - "GET /api/emergency/pharmacies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50378 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50380 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50390 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50390 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50392 - "GET /api/incidents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50393 - "GET /api/news HTTP/1.1" 200 OK

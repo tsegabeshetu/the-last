@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AEC — AuraStay Emergency Portal Center</title>
+    <meta
+      name="description"
+      content="AEC (AuraStay Emergency Portal Center) connects citizens with emergency guidance, incident reporting, car rental, and medication delivery across Ethiopia."
+    />
+    <meta name="theme-color" content="#0b2a33" />
+        <!-- 1. Fix the favicon, Leaflet CSS, and layout style paths -->
+    <link rel="icon" href="/frontend/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/frontend/vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="/frontend/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div id="site-header"></div>
+    <main id="main" tabindex="-1"></main>
+    <div id="site-footer"></div>
+    <div id="assistant-root"></div>
+    <div id="toast-root" class="toast-stack" role="status" aria-live="polite"></div>
+    
+    <!-- 2. Fix the JavaScript app engine file path -->
+    <script type="module" src="/frontend/js/app.js"></script>
+  </body>
